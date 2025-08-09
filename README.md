@@ -4,7 +4,7 @@ A collection of STM32 embedded systems projects demonstrating GPIO, UART, ADC, P
 Overview
 Each project demonstrates a specific STM32 feature or embedded design pattern. They are structured in folders under fw/ (firmware), named P0, P1, etc., to reflect the order and complexity of development.
 
-![System Diagram](docs/system-diagram.png)
+![System Diagram](docs/System Diagram.png)
 
 📋 Project Task Table
 Project	Feature	Goal	Done When
