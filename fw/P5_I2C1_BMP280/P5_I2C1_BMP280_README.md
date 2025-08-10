@@ -1,6 +1,7 @@
 P5_I2C1_BMP280
+
 📌 Project Overview
-This project demonstrates basic I2C communication between the STM32F401RE microcontroller and a BMP280 temperature & pressure sensor.
+This project demonstrates basic I2C communication between the STM32F401RE Nucleo board and a BMP280 temperature & pressure sensor.
 It uses STM32 HAL functions to:
 
 Detect the sensor by reading its chip ID (WHOAMI).
@@ -37,9 +38,7 @@ Print values over UART in the format:
 ini
 Copy
 Edit
-addr=0x76 id=0x58
-raw_temp=...
-raw_press=...
+addr=0x76 id=0x58 raw_temp=... raw_press=...
 ▶ Running the Project
 Open the project in STM32CubeIDE.
 
@@ -50,8 +49,8 @@ Open a serial monitor (e.g., PuTTY, Tera Term) at 115200 baud.
 Observe the chip ID and raw sensor values being printed.
 
 📂 File Structure
-Core/Src & Core/Inc – Main application code and headers.
+Core/Src & Core/Inc – Main application code and headers
 
-BMP280.c / BMP280.h – Driver for BMP280 sensor.
+BMP280.c / BMP280.h – Driver for BMP280 sensor
 
-.ioc file – CubeMX configuration for peripherals.
+.ioc file – CubeMX configuration for peripherals
